@@ -27,7 +27,7 @@ public class Shell {
                 }
                 array[j] = temp;
             }
-            System.out.println("     Cambios: " + cambios+" gap " + gap);
+            System.out.println("\tCambios: " + cambios+" gap " + gap);
             printArray(array);
         }
        
@@ -37,7 +37,7 @@ public class Shell {
     // Método para imprimir el arreglo
     public static void printArray(int[] array) {
         for (int value : array) {
-            System.out.print("\t"+value + "\t ");
+            System.out.print(value + " ");
         }
         System.out.println();
     }
